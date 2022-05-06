@@ -44,8 +44,8 @@ class Ui_Form(object):
         Функция при нажатии на кнопку start. Запускает сначала таймер на работу 25 минут,
         потом таймер на отдых 5 минут
         """
-        self.timer(1)
-        self.timer(1)
+        self.timer(25)
+        self.timer(5)
 
     def click_stop(self):
         """
